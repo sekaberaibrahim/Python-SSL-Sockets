@@ -2,7 +2,7 @@
 import socket
 import ssl
 
-host = '40.104.14.210'
+host = '40.14.14.190'
 port = 443
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

@@ -1,9 +1,9 @@
-# bind_local_client.py - Bind to your local IP
+#Bind to your local IP
 import socket
 import ssl
 
 local_ip = '10.178.77.205'  # Your IP
-local_port = 0  # Let OS choose port
+local_port = 0  # OS choose port
 
 remote_ip = '40.104.14.210'
 remote_port = 443
@@ -11,7 +11,7 @@ remote_port = 443
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 try:
-    # Bind to your local IP (optional)
+    # Bind to your local IP 
     client_socket.bind((local_ip, local_port))
     print(f"Bound to {local_ip}:{client_socket.getsockname()[1]}")
     
@@ -25,7 +25,7 @@ try:
     print(f"Connected to {remote_ip}:{remote_port}")
     print(f"Local address: {ssl_socket.getsockname()}")
     
-    # Send request
+    # Sending request
     request = "GET / HTTP/1.1\r\nHost: {}\r\n\r\n".format(remote_ip)
     ssl_socket.send(request.encode())
     

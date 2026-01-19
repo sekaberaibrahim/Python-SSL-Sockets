@@ -7,14 +7,12 @@ def start_client():
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     # Connect to remote server
-    host = '40.104.14.210'
+    host = '40.14.14.190'
     port = 443
     
     # Wrap socket with SSL/TLS
     context = ssl.create_default_context()
     
-    # Disable certificate verification for testing (NOT recommended for production)
-    # Use this when certificate doesn't match IP or is self-signed
     context.check_hostname = False
     context.verify_mode = ssl.CERT_NONE
     

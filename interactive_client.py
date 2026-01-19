@@ -1,4 +1,4 @@
-# interactive_client.py - Interactive SSL client
+# Interactive SSL client
 import socket
 import ssl
 

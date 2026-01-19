@@ -17,7 +17,7 @@ def start_server():
     context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
     
     # Load certificate and private key
-    # You need to generate these first (see instructions below)
+    # Rember to genrate them
     try:
         context.load_cert_chain('server.crt', 'server.key')
     except FileNotFoundError:

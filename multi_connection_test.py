@@ -1,12 +1,12 @@
-# multi_connection_test.py - Test multiple IPs
+# Testing multiple IPs
 import socket
 import ssl
 
 servers = [
-    ('40.104.14.210', 443),
-    ('52.123.139.75', 443),
-    ('104.16.143.237', 443),
-    ('129.213.45.216', 443),
+    ('40.14.14.190', 443),
+    ('52.123.13.75', 443),
+    ('104.16.13.237', 443),
+    ('129.23.45.216', 443),
 ]
 
 def test_connection(host, port):

@@ -1,7 +1,7 @@
-# basic_client.py - Simple TCP client
+# basic_client.py TCP client
 import socket
 
-host = '40.104.14.210'  # Change this to any IP from your list
+host = '40.14.14.190'  # You Can Change this to any IP from your list
 port = 443
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

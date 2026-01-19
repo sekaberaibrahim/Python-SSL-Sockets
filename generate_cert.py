@@ -66,3 +66,4 @@ if __name__ == "__main__":
         print("❌ Error: 'cryptography' module not installed")
         print("\nPlease install it first:")
         print("pip install cryptography")
+        

@@ -2,7 +2,7 @@
 import socket
 import ssl
 
-local_ip = '10.18.77.09  # Your IP
+local_ip = '10.18.77.12  # Your IP
 local_port = 0  # OS choose port
 
 remote_ip = '40.14.14.190'

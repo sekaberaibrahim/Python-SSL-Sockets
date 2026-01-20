@@ -2,10 +2,10 @@
 import socket
 import ssl
 
-local_ip = '10.178.77.205'  # Your IP
+local_ip = '10.18.77.09  # Your IP
 local_port = 0  # OS choose port
 
-remote_ip = '40.104.14.210'
+remote_ip = '40.14.14.190'
 remote_port = 443
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
